@@ -1,0 +1,86 @@
+# =========================
+# Secrets / Tokens
+# =========================
+github_token
+.env
+.env.*
+
+# =========================
+# Python Virtual Environments
+# =========================
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# =========================
+# Python Cache / Build
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Distribution / Packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# =========================
+# Test / Coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# IDEs & Editors
+# =========================
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+# =========================
+# OS-specific
+# =========================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# mypy / static analysis
+# =========================
+.mypy_cache/
+.pyright/
